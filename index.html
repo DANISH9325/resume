@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins:wght@400;600&family=Roboto:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="App.css" />
+    <title>Danish-Developer-Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Danish Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="firstsection">
+      <div class="firstleft">
+        Hi,My name is <span id="first">Danish</span> <br />I am passionate
+        <br />
+        <span id="element"></span>
+         <div class="btn">
+            <button class="btn1">My portfolio</button>
+            <button class="btn1">Resume</button>
+        </div>
+
+      </div>
+      <div class="firstright">
+        <img
+          src="3d-web-developer-working-on-project-illustration-png.webp"
+          alt="Web image"
+        />
+      </div>
+    </section>
+    <hr />
+
+    <section class="secondsection">
+      <span class="text-grey">What I have done so far</span>
+      <h1>Past Experience</h1>
+      <div class="box">
+        <div class="v1">
+          <img class="img-top" src="1688451.png" alt="img" />
+          <div class="verticle-title">Brite App(2022-23)</div>
+          <div class="verticle-dist">
+            Brite App is a Logistic application used for transferring goods.
+          </div>
+        </div>
+        <div class="v1">
+          <img class="img-top" src="1688451.png" alt="img" />
+          <div class="verticle-title">Greenstone(2021-22)</div>
+          <div class="verticle-dist">
+            Greenstone is a next generation integration ticketing system tool,
+            which is built by using cutting edge technologies of today, the
+            front end is developed in the React JS.
+          </div>
+        </div>
+        <div class="v1">
+          <img class="img-top" src="1688451.png" alt="img" />
+          <div class="verticle-title">Shope Plus App(2020-21)</div>
+          <div class="verticle-dist">Shop Plus is an e-commerce website.</div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <section class="sectionthird">
+      <h1>Skills:</h1>
+      <div class="skill">
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>BOOTSTRAP</li>
+          <li>JAVASCRIPT</li>
+          <li>REACT.JS</li>
+          <li>REDUX.JS</li>
+          <li>GIT</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">www.danishportfolio.com|&copy;all right are reserved</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
